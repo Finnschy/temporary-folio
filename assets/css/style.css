@@ -63,18 +63,19 @@ h1 , h2 {
     border-bottom: 1px solid black;
 }
 
-#designer figcaption {
-    font-family: 'Open Sans', sans-serif;
-    color: #002a5a;
+#hero {
+    border: 1px solid green;
 }
 
-#designer figcaption span {
-    font-family: 'Athene', serif;
+#designer {
+    border: 1px solid red;
+    display: inline-block;
+    width: 20%;
+    
 }
 
 .release {
     background: #F4C4C4;
-    position: absolute;
 }
 
 .release h2 {
@@ -96,23 +97,44 @@ p {
 #introduction {
     border: 1px solid green;
     width: 40%;
-    position: relative;
-    right: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+thead, .right-align {
+    text-align: right;
+}
+
+th, td {
+    padding: 3%;
+    border-bottom: 1px solid black;
+    border-right: 5px solid #F4C4C4;
+}
+
+th {
+    padding-right: 0;
+    padding-bottom: 0;
+    font-size: 1.3rem;
+}
+
+.numbers , .right-align {
+    font-size: .8rem;
+}
+
+.numbers , .values , .right-align {
+    padding-left: 0;
+}
+
+.values {
+    padding-right: 60%;
+    font-size: 1.3rem;
 }
 
 
-/* 
-#designer img {
-    border: 1px solid red;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+.right-align {
+    padding-right: 0;
 }
-
-#designer figcaption {
-    displaY: block;
-    width: 100%;
-    padding: 0.5em;
-}
- */

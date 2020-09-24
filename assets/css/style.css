@@ -6,3 +6,36 @@
 }
 
 /* Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 */
+
+body {
+    margin: 0;
+}
+
+nav {
+    padding: 30px;
+    height: 10%;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #002a5a;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li , nav li a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #002a5a;
+    text-decoration: none;
+    font-size: 1.3rem;
+
+}
+
+nav li:first-child {
+    margin-left: 8%;
+    margin-right: 70%;
+}

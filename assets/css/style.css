@@ -70,15 +70,17 @@ h1 , h2 {
 #designer {
     border: 1px solid red;
     display: inline-block;
-    width: 20%;
+    text-align: center;
     
 }
 
 .release {
     background: #F4C4C4;
+    
 }
 
-.release h2 {
+#release-h2 {
+    font-size: 13rem;
     text-align: left;
     width: 100%;
     color: black;
@@ -92,32 +94,50 @@ h1 , h2 {
 
 p {
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 #introduction {
-    border: 1px solid green;
-    width: 40%;
+    font-weight: 100;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 35%;
+    right: 0;
+    margin-left: 60%;
 }
 
 table {
     border-collapse: collapse;
-    width: 50%;
+    min-width: 45%;
     font-family: 'Open Sans', sans-serif;
+    margin: 5% 20% 0 50%;    
   }
 
 thead, .right-align {
     text-align: right;
 }
 
+td:nth-of-type(1) {
+    width: 10%;
+}
+
+td:nth-of-type(2) {
+    width: 75%;
+}
+
+td:nth-of-type(3) {
+    width: 15%;
+}
+
+
 th, td {
-    padding: 3%;
+    padding: 3% 0 3% 0;
     border-bottom: 1px solid black;
     border-right: 5px solid #F4C4C4;
 }
 
 th {
-    padding-right: 0;
-    padding-bottom: 0;
+    padding: 0;
     font-size: 1.3rem;
 }
 
@@ -125,16 +145,30 @@ th {
     font-size: .8rem;
 }
 
-.numbers , .values , .right-align {
-    padding-left: 0;
-}
-
 .values {
-    padding-right: 60%;
     font-size: 1.3rem;
 }
 
-
 .right-align {
     padding-right: 0;
+}
+
+#lets-work {
+    height: 10%;
+    width: 10%;
+    display: inline-block;
+    margin: 5% 0 5% 85%;   
+}
+
+.works {
+    background: #DEB873;
+}
+
+#works-h2 {
+    font-size: 13rem;
+    text-align: right;
+    width: 100%;
+    color: #7d2222;
+    border: none;
+    padding-top: 5%;
 }

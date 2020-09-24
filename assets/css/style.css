@@ -9,7 +9,6 @@
 
 
 body {
-    margin: 0;
     background: #efe8d7;
 }
 
@@ -36,6 +35,10 @@ nav li , nav li a{
     font-size: 1.3rem;
 }
 
+nav li a:hover {
+    font-weight: 400;
+}
+
 nav li:first-child {
     margin-left: 15%;
     margin-right: 60%;
@@ -52,7 +55,6 @@ nav li:first-child {
 }
 
 figure {
-    border: 1px solid red;
     width: 20%;
     margin: 0 auto;
 }
@@ -61,6 +63,14 @@ figure img {
     width: 100%;
 }
 
+figcaption {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+#figc {
+    font-family: 'Athene', serif;
+}
 
 h1 , h2 {
     font-family: 'Athene', serif;
@@ -73,20 +83,8 @@ h1 , h2 {
     border-bottom: 1px solid black;
 }
 
-#hero {
-    border: 1px solid green;
-}
-
-#designer {
-    border: 1px solid red;
-    display: inline-block;
-    text-align: center;
-    
-}
-
 .release {
     background: #F4C4C4;
-    
 }
 
 #release-h2 {

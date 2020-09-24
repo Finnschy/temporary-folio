@@ -9,6 +9,7 @@
 
 body {
     margin: 0;
+    background: #efe8d7;
 }
 
 nav {
@@ -36,6 +37,82 @@ nav li , nav li a{
 }
 
 nav li:first-child {
-    margin-left: 8%;
-    margin-right: 70%;
+    margin-left: 15%;
+    margin-right: 60%;
 }
+
+.temporary-folio {
+    background: #efe8d7;
+    margin-bottom: 5%;
+
+}
+
+.temporary-folio article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 , h2 {
+    font-family: 'Athene', serif;
+    color: #002a5a;
+    font-weight: 100;
+    text-align: center;
+    font-size: 10rem;
+    width: 75%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+#designer figcaption {
+    font-family: 'Open Sans', sans-serif;
+    color: #002a5a;
+}
+
+#designer figcaption span {
+    font-family: 'Athene', serif;
+}
+
+.release {
+    background: #F4C4C4;
+    position: absolute;
+}
+
+.release h2 {
+    text-align: left;
+    width: 100%;
+    color: black;
+    border: none;
+}
+
+.littlenumber {
+    margin-left: 6%;
+    padding-top: 6%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#introduction {
+    border: 1px solid green;
+    width: 40%;
+    position: relative;
+    right: 0;
+}
+
+
+/* 
+#designer img {
+    border: 1px solid red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#designer figcaption {
+    displaY: block;
+    width: 100%;
+    padding: 0.5em;
+}
+ */

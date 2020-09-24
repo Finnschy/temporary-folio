@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+figure {
+    border: 1px solid red;
+    width: 20%;
+    margin: 0 auto;
+}
+
+figure img {
+    width: 100%;
+}
+

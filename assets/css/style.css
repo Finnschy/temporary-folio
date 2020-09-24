@@ -7,6 +7,7 @@
 
 /* Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 */
 
+
 body {
     margin: 0;
     background: #efe8d7;
@@ -33,7 +34,6 @@ nav li , nav li a{
     color: #002a5a;
     text-decoration: none;
     font-size: 1.3rem;
-
 }
 
 nav li:first-child {
@@ -43,14 +43,24 @@ nav li:first-child {
 
 .temporary-folio {
     background: #efe8d7;
+    margin-top: 3%;
     margin-bottom: 5%;
-
 }
 
-.temporary-folio article {
-    width: 90%;
+.temporary-folio h2 {
+    margin-bottom: 3%;
+}
+
+figure {
+    border: 1px solid red;
+    width: 20%;
     margin: 0 auto;
 }
+
+figure img {
+    width: 100%;
+}
+
 
 h1 , h2 {
     font-family: 'Athene', serif;
@@ -58,7 +68,7 @@ h1 , h2 {
     font-weight: 100;
     text-align: center;
     font-size: 10rem;
-    width: 75%;
+    width: 64%;
     margin: 0 auto;
     border-bottom: 1px solid black;
 }

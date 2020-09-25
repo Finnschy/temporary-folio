@@ -38,7 +38,8 @@ nav li , nav li a{
 }
 
 nav li a:hover {
-    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: #002a5a;
 }
 
 nav li:first-child {
@@ -177,16 +178,14 @@ th {
     display: inline-block;
     margin: 5% 0 5% 85%;   
 }
-
+ 
 .works {
     background: #DEB873;
     color: #7d2222;
-    min-height: 410vh;
 }
 
 #works-h2 {
     text-align: right;
-    
 }
 
 .zwei {
@@ -201,75 +200,62 @@ th {
     margin: 0 0 10% 10%;
 }
 
-.projects {
-    position: relative;
-    
-}
-
 h3 {
     font-family: 'Athene', serif;
     font-weight: 100;
-    font-size: 5.5rem;
-    position: absolute;
-    z-index: 1;
+    font-size: 5rem;
+    position: relative;
+    z-index: 4;
 }
 
-.left {
-    margin: 0 0 0 10%;
+.left-h3 {
+    margin: 0 0 10% 10%; 
 }
 
-.right {
-    margin: 0 10% 0 0;
+.right-h3 {
     text-align: right;
+    margin-top: 20%;
+    margin-right: 10%;
 }
 
-.rodrigo img {
-    position: absolute;
-    top: 0;
-    right: 11rem;
+.right-img , .left-img {
+    width: 50%;
+    min-height: 50vh;
+    display: inline-block;
 }
 
-.kaethe img , .kaethe h3 {
-    position: absolute;
+.right-img {
+    margin-left: 40%;
+    margin-top: -23%;
 }
 
-.kaethe img {
-    left: 12rem;
-    top: 50rem;
+.rodrigo {
+    background: url(../img/bg-marconatto-1.jpg) center / cover no-repeat;
 }
 
-.kaethe h3 {
-    right: 0rem;
-    top: 44rem;
+.kaethe {
+    background: url(../img/kathe_cover-1.jpg) center / cover no-repeat;
 }
 
-.victor img , .victor h3 {
-    position: absolute; 
-
+.left-img {
+    margin-top: -18%;
+    margin-left: 10%;
 }
 
-.victor img {
-    top: 100rem;
-    right: 11rem;
+.victor {
+    background: url(../img/bg-nicole-1.jpg) center / cover no-repeat;
 }
 
-.victor h3 {
-    top: 96rem;
-    left: 0rem;
+.works article:nth-of-type(4) {
+    margin-top: 20%;
 }
 
-.bored img , .bored h3 {
-    position: absolute;
+.bored {
+    background: url(../img/boa_cover-1.jpg) center / cover no-repeat;
 }
 
-.bored img {
-    left: 12rem;
-    top: 150rem;
-}
-
-.bored h3 {
-    right: 0;
-    top: 150rem;
+.works article:nth-of-type(5) {
+    padding-bottom: 20%;
 }
 
 .contact {
@@ -302,4 +288,5 @@ h3 {
 
 .contact ul li a:hover {
     text-decoration: underline;
+
 } 

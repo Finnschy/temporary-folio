@@ -5,9 +5,6 @@
     src: url(../fonts/Athene.otf);
 }
 
-/* Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 */
-
-
 body {
     margin: 0;
     background: #efe8d7;
@@ -43,18 +40,22 @@ nav li a:hover {
 }
 
 nav li:first-child {
-    margin-left: 15%;
-    margin-right: 60%;
+    margin: 0 60% 0 15%;
 }
 
 .temporary-folio {
+    color: #002a5a;
     background: #efe8d7;
-    margin-top: 3%;
-    margin-bottom: 5%;
+    margin: 3% 0 5% 0;
 }
 
-.temporary-folio h2 {
+.headline {
+    width: 67%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
     margin-bottom: 3%;
+    text-align: center;
+    letter-spacing: 1rem;
 }
 
 figure {
@@ -69,19 +70,11 @@ figure img {
 figcaption {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+    margin-top: 5%;
 }
 
 #figc {
     font-family: 'Athene', serif;
-}
-
-.headline {
-    color: #002a5a;
-    width: 64%;
-    margin: 0 auto;
-    border-bottom: 1px solid black;
-    margin-bottom: 3%;
-    text-align: center;
 }
 
 h2 , .headline {
@@ -105,9 +98,12 @@ h2 {
     color: black;
 }
 
-.eins {
-    margin-top: 0;
-    margin-left: 8%;
+.left-number , .right-number {
+    font-size: 1.2rem;
+}
+
+.left-number {
+    margin: 0 0 0 8%;
     padding-top: 8%;
 }
 
@@ -148,7 +144,6 @@ td:nth-of-type(3) {
     width: 15%;
 }
 
-
 th, td {
     padding: 3% 0 3% 0;
     border-bottom: 1px solid black;
@@ -188,10 +183,9 @@ th {
     text-align: right;
 }
 
-.zwei {
+.right-number {
     text-align: right;
-    margin: 0; 
-    margin-right: 8%;
+    margin: 0 8% 0 0; 
     padding-top: 8%; 
 }
 
@@ -214,8 +208,7 @@ h3 {
 
 .right-h3 {
     text-align: right;
-    margin-top: 20%;
-    margin-right: 10%;
+    margin: 20% 10% 0 0;
 }
 
 .right-img , .left-img {
@@ -225,8 +218,15 @@ h3 {
 }
 
 .right-img {
-    margin-left: 40%;
-    margin-top: -23%;
+    margin: -23% 0 0 40%;
+}
+
+.left-img {
+    margin: -18% 0 0 10%;
+}
+
+.works article:nth-of-type(4) {
+    margin-top: 20%;
 }
 
 .rodrigo {
@@ -237,17 +237,8 @@ h3 {
     background: url(../img/kathe_cover-1.jpg) center / cover no-repeat;
 }
 
-.left-img {
-    margin-top: -18%;
-    margin-left: 10%;
-}
-
 .victor {
     background: url(../img/bg-nicole-1.jpg) center / cover no-repeat;
-}
-
-.works article:nth-of-type(4) {
-    margin-top: 20%;
 }
 
 .bored {
@@ -264,7 +255,7 @@ h3 {
     padding-bottom: 5%;
 }
 
-.contact p:not(.eins) {
+.contact p:not(.left-number) {
     width: 30%;
     margin: 0 auto;
 }
@@ -288,5 +279,4 @@ h3 {
 
 .contact ul li a:hover {
     text-decoration: underline;
-
 } 

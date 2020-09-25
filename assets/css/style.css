@@ -19,9 +19,10 @@ nav {
     position: sticky;
     top: 0;
     border-bottom: 1px solid #002a5a;
+    z-index: 100;
 }
 
-nav ul {
+nav ul , .contact ul{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -104,6 +105,7 @@ h2 {
 }
 
 .eins {
+    margin-top: 0;
     margin-left: 8%;
     padding-top: 8%;
 }
@@ -112,7 +114,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
 
 }
 
@@ -179,6 +181,7 @@ th {
 .works {
     background: #DEB873;
     color: #7d2222;
+    min-height: 410vh;
 }
 
 #works-h2 {
@@ -195,22 +198,108 @@ th {
 
 #works-text {
     width: 35%;
-    margin: 0 0 0 10%;
+    margin: 0 0 10% 10%;
+}
+
+.projects {
+    position: relative;
+    
 }
 
 h3 {
     font-family: 'Athene', serif;
     font-weight: 100;
-    font-size: 5rem;
-
+    font-size: 5.5rem;
+    position: absolute;
+    z-index: 1;
 }
 
-.projects-left {
+.left {
     margin: 0 0 0 10%;
-
 }
 
-.projects-right {
+.right {
     margin: 0 10% 0 0;
     text-align: right;
 }
+
+.rodrigo img {
+    position: absolute;
+    top: 0;
+    right: 11rem;
+}
+
+.kaethe img , .kaethe h3 {
+    position: absolute;
+}
+
+.kaethe img {
+    left: 12rem;
+    top: 50rem;
+}
+
+.kaethe h3 {
+    right: 0rem;
+    top: 44rem;
+}
+
+.victor img , .victor h3 {
+    position: absolute; 
+
+}
+
+.victor img {
+    top: 100rem;
+    right: 11rem;
+}
+
+.victor h3 {
+    top: 96rem;
+    left: 0rem;
+}
+
+.bored img , .bored h3 {
+    position: absolute;
+}
+
+.bored img {
+    left: 12rem;
+    top: 150rem;
+}
+
+.bored h3 {
+    right: 0;
+    top: 150rem;
+}
+
+.contact {
+    background: #D2D2D2;
+    color: #1d8883;
+    padding-bottom: 5%;
+}
+
+.contact p:not(.eins) {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact nav li ,  {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.contact ul li , .contact ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #1d8883;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline;
+} 
